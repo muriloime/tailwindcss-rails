@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    tailwindcss-rails (2.0.18)
+    tailwindcss-rails-alt (2.0.18)
       railties (>= 6.0.0)
 
 GEM
@@ -97,7 +97,7 @@ PLATFORMS
 DEPENDENCIES
   actionmailer (>= 6.0.0)
   debug (>= 1.0.0)
-  tailwindcss-rails!
+  tailwindcss-rails-alt!
 
 BUNDLED WITH
    2.3.25

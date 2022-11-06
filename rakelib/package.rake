@@ -72,7 +72,7 @@ def tailwindcss_download_url(filename)
   "https://github.com/tailwindlabs/tailwindcss/releases/download/#{Tailwindcss::Upstream::VERSION}/#{filename}"
 end
 
-TAILWINDCSS_RAILS_GEMSPEC = Bundler.load_gemspec("tailwindcss-rails.gemspec")
+TAILWINDCSS_RAILS_GEMSPEC = Bundler.load_gemspec("tailwindcss-rails-alt.gemspec")
 
 gem_path = Gem::PackageTask.new(TAILWINDCSS_RAILS_GEMSPEC).define
 desc "Build the ruby gem"

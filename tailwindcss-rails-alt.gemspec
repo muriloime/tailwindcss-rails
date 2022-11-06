@@ -6,7 +6,7 @@ Gem::Specification.new do |spec|
   spec.authors     = [ "David Heinemeier Hansson" ]
   spec.email       = "david@loudthinking.com"
   spec.homepage    = "https://github.com/rails/tailwindcss-rails"
-  spec.summary     = "Integrate Tailwind CSS with the asset pipeline in Rails."
+  spec.summary     = "Integrate Tailwind CSS with the asset pipeline in Rails. This gem was created to test a new feature in the original gem"
   spec.license     = "MIT"
 
   spec.metadata = {
